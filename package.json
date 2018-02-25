@@ -1,6 +1,6 @@
 {
   "name": "pushover-notification-client",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A pushover-notification client with image support",
   "main": "index.js",
   "directories": {
@@ -16,5 +16,13 @@
     "image"
   ],
   "author": "Ketra",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ketra/Pushover-notification-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ketra/Pushover-notification-client/issues"
+  },
+  "homepage": "https://github.com/ketra/Pushover-notification-client#readme"
 }

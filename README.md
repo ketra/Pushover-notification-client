@@ -2,17 +2,13 @@
 
 Send [pushover.net](http://pushover.net) notifications from Node.JS
 
-[![Build Status](https://travis-ci.org/qbit/node-pushover.svg?branch=master)](https://travis-ci.org/qbit/node-pushover)
-[![Coverity Scan Build Status](https://scan.coverity.com/projects/10939/badge.svg)](https://scan.coverity.com/projects/qbit-node-pushover)
-
-
-[![NPM](https://nodei.co/npm/pushover-notifications.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/pushover-notifications/)
+This clode is a partial copy of the code on pushover-notifications
 
 ## Usage
 
 ### Install
 
-	npm install pushover-notifications
+	npm install pushover-notification-client
 
 ### Pushover API values
 
@@ -33,7 +29,7 @@ var msg = {
 ### Sending a message
 ```javascript
 
-var Push = require( 'pushover-notifications' )
+var Push = require( 'pushover-notification-client' )
 
 var p = new Push( {
   user: process.env['PUSHOVER_USER'],
