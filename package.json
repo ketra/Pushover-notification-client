@@ -1,0 +1,20 @@
+{
+  "name": "pushover-notification-client",
+  "version": "0.0.1",
+  "description": "A pushover-notification client with image support",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "standard && pkill tinyproxy ; tinyproxy -c test/tinyproxy.conf && set -e; for t in test/*.js; do node $t; done"
+  },
+  "keywords": [
+    "pushover",
+    "notifications",
+    "notification",
+    "image"
+  ],
+  "author": "Ketra",
+  "license": "ISC"
+}
