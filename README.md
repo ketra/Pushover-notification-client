@@ -2,7 +2,7 @@
 
 Send [pushover.net](http://pushover.net) notifications from Node.JS
 
-This clode is a partial copy of the code on pushover-notifications
+This code is a partial copy of the code on [pushover-notifications](https://github.com/qbit/node-pushover)
 
 ## Usage
 
@@ -21,7 +21,9 @@ var msg = {
   device: 'test_device',
   priority: 2,
   url: "http://pushover.net",
-  url_title: "Pushover Website"
+  url_title: "Pushover Website",
+  attatchment: fs.Createreadstream('@download.jpg')
+
 }
 ```
 ## Examples
