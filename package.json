@@ -1,6 +1,6 @@
 {
   "name": "pushover-notification-client",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A pushover-notification client with image support",
   "main": "index.js",
   "directories": {
